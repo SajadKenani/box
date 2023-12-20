@@ -1,0 +1,197 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.homeImage{
+    width: 100%;
+    height: 595px;
+
+ position: absolute;
+ object-fit: cover;
+}
+
+h1{
+    font-family: "Changa";
+
+}
+
+h2{
+    font-family: "Changa";
+
+}
+
+button{
+    font-family: "Changa";
+}
+
+p{
+    font-family: "Changa";
+    direction: rtl;
+    text-align: start;
+
+
+}
+
+.homeImageContent{
+   background: linear-gradient(90deg, rgba(245, 251, 255, 0) 1%, #ffffff 80%);
+    width: 100%;
+    height: fit-content;
+
+    z-index: 2;
+    color: black;
+    position: relative;
+
+    text-align: end;
+
+    font-weight: 500;
+   
+}
+
+.myMainText{
+    line-height: 110px;
+    width: 800px; 
+    margin-top: 100px;
+}
+
+@media (max-width: 1023px) {
+    .myMainText{
+    line-height: 60px;
+    
+    }
+    .button{
+        margin-bottom: 175px;
+    }
+
+    .homeImageContent{
+        padding-bottom: 1px;
+    }
+}
+
+@media (max-width: 900px) {
+    .myMainText{
+    line-height: 60px;
+    
+    }
+    .button{
+        margin-bottom: 115px;
+    }
+}
+
+@media (max-width: 550px) {
+    .button{
+        margin-bottom: 90px;
+    }
+}
+
+@media (max-width: 470px) {
+    .button{
+        margin-bottom: 30px;
+    }
+}
+
+.shareLink-div{
+    background: linear-gradient(90deg, #E5EFF6 10%,  #F5FCFF 50%);
+
+}
+
+
+
+.mainOurProject-Section{
+    background-color:#F5FCFF;
+    /* padding-left: myPadding+"%", paddingRight:  myPadding+"%", */
+    position:relative;
+    height:fit-content;
+    
+}
+
+.myVector1{
+    margin-top: -40%;
+    z-index: 35;
+    position: absolute;
+    width: 211px;
+    height: 201px;
+
+
+}
+
+.myVector2{
+    margin-top: -10%;
+    z-index: 35;
+    position: absolute;
+    width: 331px;
+    height: 340px;
+
+
+}
+
+
+.myVector3{
+    margin-top: -6%;
+    z-index: 35;
+
+    width: 196px;
+    height: 168px;
+
+    position: absolute;
+
+
+    right: 0;
+
+}
+
+.myBox{
+    width: 400px;
+   
+}
+
+.longPara{
+    text-align:center;
+    width:740px;
+
+}
+
+@media (max-width: 770px) {
+    .longPara{
+
+        width:80%;
+    
+    }
+}
+
+
+@media (max-width: 640px) {
+    .myBox{
+        margin: 0 auto;
+    }
+
+
+}
+
+@media (max-width: 470px) {
+    .myBox{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media (max-width: 580px) {
+    .servicesPara{
+        width: 90%;
+    }
+
+
+}
+
+
+
+
+
+
+.blurDiv{
+    background: linear-gradient(180deg, #F5FCFF 20%,  #ffffff 100%);
+    position: relative;
+
+}
